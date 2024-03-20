@@ -106,8 +106,23 @@ button:hover {
     background-color: #456be6;
 }
 
+.Contacto {
+    display: flex; /* Utilizamos flexbox para organizar los elementos */
+    flex-direction: column; /* Organizamos los elementos en una columna */
+    align-items: center; /* Centramos los elementos horizontalmente */
+    text-align: center; /* Centramos el texto */
+}
 
+.developerPerfil {
+    margin-top: 10px; /* Espacio entre el título y las imágenes */
+    border: none !important; /* Quita el borde alrededor de cada artículo */
+}
 
+.developerPerfil img {
+    width: 100px; /* Ancho de las imágenes */
+    height: 100px; /* Altura automática para mantener la proporción */
+    margin: 0 10px; /* Espacio entre las imágenes */
+}
 
 
 /* Contenedor */
