@@ -4,10 +4,27 @@ header {
     color: #fff;
     padding: 20px;
     text-align: center;
+    margin-bottom: 1rem;
+}
+body {
+    margin: 0;
+    background-color: #efefef;
 }
 
 h1 {
     margin: 0;
+    margin-bottom: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+h2 {
+    margin: 0;
+    margin-bottom: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+p {
+    margin: 1rem 0;
+    margin-bottom: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Estilos para el campo de búsqueda */
@@ -16,12 +33,21 @@ h1 {
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    position: absolute; /* Establece la posición absoluta */
+    top: 3rem; /* Alinea el elemento en la parte superior */
+    left: 0; /* Alinea el elemento a la derecha */
+    transform: translate(0, -100); /* Mueve el elemento hacia arriba y hacia la izquierda en relación con su propio tamaño */
+    
 }
 
 /* Estilos para el menú desplegable de idioma */
 #language {
     margin: 10px;
     padding: 8px;
+    top: 3rem;
+    right: 0;
+    position: absolute;
+    transform: translate(0, -100);
     border: 1px solid #ccc;
     border-radius: 4px;
     background-color: #fff;
@@ -33,6 +59,7 @@ footer {
     color: #fff;
     padding: 20px;
     text-align: center;
+    margin-top: 1rem;
 }
 
 .footer-container {
@@ -45,26 +72,89 @@ footer {
     margin-bottom: 20px;
 }
 
+/*Clase contacto*/
+.Contacto {
+    gap: 1rem; /* Espacio entre las columnas */
+    display: flex; /* Utiliza flexbox para alinear las imágenes en una línea */
+
+}
+
+/*Imagen de perfil de los desarrolladores*/
+.Perfil {
+    margin-top: 3rem; /* Añade un margen superior para separar la imagen del borde superior del contenedor */
+    border-radius: 50%; /* Aplica un borde redondeado del 50% para hacer la imagen circular */
+    width: 100px; /* Define el ancho deseado para la imagen */
+    height: 100px; /* Define la altura deseada para la imagen */
+    object-fit: cover; /* Hace que la imagen cubra completamente el área del contenedor, manteniendo su relación de aspecto */
+    border: 2px solid #fff; /* Añade un borde blanco para mejorar el contraste */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Añade una sombra para dar un efecto de elevación */
+
+}
+
 /* Estilos para los botones */
 button {
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
-    background-color: #ff6600;
+    background-color: #456be6;
     color: #fff;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: #cc5500;
+    background-color: #456be6;
 }
 
-/* Estilos para los íconos de contacto */
-.contact-icons {
-    margin-top: 10px;
+
+
+
+
+/* Contenedor */
+
+.Container {
+    display: grid; /* Utiliza el sistema de diseño de cuadrícula */
+    grid-template-columns: repeat(2, 1fr); /* Divide la sección en dos columnas de ancho igual */
+    gap: 20px; /* Espacio entre las columnas */
 }
 
-.contact-icons a {
-    margin: 0 5px;
+.post {
+    border: 1px solid #ccc; /* Añade un borde alrededor de cada artículo */
+    padding: 20px; /* Espacio interno dentro de cada artículo */
+    box-sizing: border-box; /* Incluye el borde en el cálculo del ancho y alto del elemento */
+    margin: 1rem;
+    width: calc(100% - 20px); /* Ajusta el ancho del artículo al 100% del contenedor, teniendo en cuenta el margen */
+
+}
+
+/* Estilos para las imágenes */
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+section article:hover{
+    box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.3);
+}
+
+
+/*Developers html*/
+
+.developerPerfil {
+    border: 1px solid #ccc; /* Añade un borde alrededor de cada artículo */
+    padding: 20px; /* Espacio interno dentro de cada artículo */
+    box-sizing: border-box; /* Incluye el borde en el cálculo del ancho y alto del elemento */
+    margin: 1rem;
+    width: calc(100% - 20px); /* Ajusta el ancho del artículo al 100% del contenedor, teniendo en cuenta el margen */
+
+}
+
+.PerfilDev {
+    border-radius: 50%; /* Aplica un borde redondeado del 50% para hacer la imagen circular */
+    width: 100px; /* Define el ancho deseado para la imagen */
+    height: 100px; /* Define la altura deseada para la imagen */
+    object-fit: cover; /* Hace que la imagen cubra completamente el área del contenedor, manteniendo su relación de aspecto */
+    border: 2px solid #555555; /* Añade un borde blanco para mejorar el contraste */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Añade una sombra para dar un efecto de elevación */
 }
