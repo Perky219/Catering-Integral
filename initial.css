@@ -128,7 +128,6 @@ button:hover {
     box-sizing: border-box; /* Incluye el borde en el cálculo del ancho y alto del elemento */
     margin: 1rem;
     width: calc(100% - 20px); /* Ajusta el ancho del artículo al 100% del contenedor, teniendo en cuenta el margen */
-
 }
 
 /* Estilos para las imágenes */
@@ -136,7 +135,6 @@ img {
     width: 100%;
     height: auto;
 }
-
 
 section article:hover{
     box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.3);
