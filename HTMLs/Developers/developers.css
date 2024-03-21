@@ -1,0 +1,52 @@
+/* Estilos para el encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+body {
+    margin: 0;
+    background-color: #efefef;
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+h2 {
+    margin: 0;
+    margin-bottom: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Estilos para los perfiles de los desarrolladores */
+.developerPerfil {
+    margin-top: 10px; /* Espacio entre el título y las imágenes */
+}
+
+.developerPerfil img {
+    width: 100px; /* Ancho de las imágenes */
+    height: 100px; /* Altura automática para mantener la proporción */
+    margin: 0 10px; /* Espacio entre las imágenes */
+}
+
+.developerPerfil {
+    border: 1px solid #ccc; /* Añade un borde alrededor de cada artículo */
+    padding: 20px; /* Espacio interno dentro de cada artículo */
+    box-sizing: border-box; /* Incluye el borde en el cálculo del ancho y alto del elemento */
+    margin: 1rem;
+    width: calc(100% - 20px); /* Ajusta el ancho del artículo al 100% del contenedor, teniendo en cuenta el margen */
+
+}
+
+.PerfilDev {
+    border-radius: 50%; /* Aplica un borde redondeado del 50% para hacer la imagen circular */
+    width: 100px; /* Define el ancho deseado para la imagen */
+    height: 100px; /* Define la altura deseada para la imagen */
+    object-fit: cover; /* Hace que la imagen cubra completamente el área del contenedor, manteniendo su relación de aspecto */
+    border: 2px solid #555555; /* Añade un borde blanco para mejorar el contraste */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Añade una sombra para dar un efecto de elevación */
+}
