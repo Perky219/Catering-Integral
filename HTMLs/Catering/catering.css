@@ -1,0 +1,74 @@
+/* Estilos específicos para la página de detalles del servicio */
+#language {
+    margin: 10px;
+    padding: 8px;
+    top: 3rem;
+    right: 0;
+    position: absolute;
+    transform: translate(0, -100%);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+body {
+    margin: 0;
+    background-color: #efefef;
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    margin: 0;
+    margin-bottom: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: x-large;
+}
+
+p {
+    margin: 1rem 0;
+    margin-bottom: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.service-details ul {
+    margin-top: 1rem; /* Añade espacio encima de la lista de actividades */
+}
+
+.service-details ul li {
+    margin-bottom: 0.5rem; /* Añade espacio entre cada elemento de la lista */
+    list-style-type: disc; /* Utiliza viñetas para los elementos de la lista */
+    font-size: large;
+}
+
+.service-details {
+    display: flex; /* Utiliza flexbox para organizar los elementos en una fila */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    padding: 20px; /* Añade espacio alrededor del contenedor */
+    box-sizing: border-box; /* Incluye el padding en el cálculo del ancho */
+    max-width: 80%;
+}
+
+.service-details-column {
+    flex: 1; /* Los divs se expanden igualmente */
+    margin: 0 10px; /* Espacio a los lados de los divs */
+}
+
+.service-details img {
+    width: 100%; /* Hace que la imagen ocupe todo el ancho disponible */
+    margin-bottom: 1rem; /* Añade espacio entre la imagen y el contenido siguiente */
+}

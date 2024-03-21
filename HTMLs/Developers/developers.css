@@ -1,4 +1,17 @@
 /* Estilos para el encabezado */
+#language {
+    margin: 10px;
+    padding: 8px;
+    top: 3rem;
+    right: 0;
+    position: absolute;
+    transform: translate(0, -100%);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+}
+
 header {
     background-color: #333;
     color: #fff;
